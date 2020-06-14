@@ -1,1 +1,1 @@
-web: bundle exec ruby devzbot.rb
+web: bundle exec ruby pushideasbot.rb
