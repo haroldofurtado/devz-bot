@@ -36,6 +36,8 @@ Telegram::Bot::Client.run(token) do |bot|
 		/link - Falo os links.
 		/regras - Falo as regras.
 		/help - Digo os comandos.")
+	else
+	bot.api.send_message(chat_id: message.chat.id, text: "Nada a dizer...")
 	end
 end
 end
